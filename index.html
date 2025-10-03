@@ -3,19 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site Pessoal</title>
+    <title>[Nome da Empresa] - Engenharia e Projetos</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
-        <h1>Bem-vindo ao Meu Site!</h1>
+        <nav class="container">
+            <a href="#inicio" class="logo">[Nome da Empresa]</a>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
     </header>
+
     <main>
-        <p>Este é o meu primeiro site hospedado de graça com o GitHub Pages.</p>
-        <p>Eu posso colocar aqui meu portfólio, informações de contato e muito mais.</p>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h1>Engenharia de Ponta para Seus Projetos</h1>
+                <p>Soluções inovadoras e eficientes para construção civil, projetos estruturais e elétricos.</p>
+                <a href="#contato" class="cta-button">Solicite um Orçamento</a>
+            </div>
+        </section>
+
+        <section id="sobre" class="container">
+            <h2>Sobre Nosso Escritório</h2>
+            <div class="sobre-content">
+                <img src="https://via.placeholder.com/400x300.png?text=Foto+do+Escritório" alt="Equipe do escritório de engenharia">
+                <p>
+                    Com mais de 10 anos de experiência, o escritório [Nome da Empresa] é referência em qualidade e comprometimento. 
+                    Nossa missão é transformar ideias em realidade, utilizando tecnologia de ponta e uma equipe de profissionais
+                    altamente qualificados para entregar resultados que superam as expectativas.
+                </p>
+            </div>
+        </section>
+
+        <section id="servicos" class="servicos-bg">
+            <div class="container">
+                <h2>Nossos Serviços</h2>
+                <div class="servicos-grid">
+                    <div class="servico-card">
+                        <h3>Projetos Estruturais</h3>
+                        <p>Cálculo e detalhamento de estruturas em concreto armado, aço e alvenaria estrutural para garantir segurança e economia.</p>
+                    </div>
+                    <div class="servico-card">
+                        <h3>Projetos Elétricos</h3>
+                        <p>Desenvolvimento de projetos elétricos residenciais, comerciais e industriais, seguindo todas as normas técnicas.</p>
+                    </div>
+                    <div class="servico-card">
+                        <h3>Gerenciamento de Obras</h3>
+                        <p>Acompanhamento completo da sua obra, desde o planejamento até a entrega, garantindo prazos e qualidade.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="container">
+            <h2>Projetos em Destaque</h2>
+            <div class="projetos-grid">
+                <div class="projeto-card">
+                    <img src="https://via.placeholder.com/400x300.png?text=Residência+Moderna" alt="Projeto de residência moderna">
+                    <h3>Residência Moderna</h3>
+                    <p>Projeto estrutural para residência de alto padrão.</p>
+                </div>
+                <div class="projeto-card">
+                    <img src="https://via.placeholder.com/400x300.png?text=Edifício+Comercial" alt="Projeto de edifício comercial">
+                    <h3>Edifício Comercial</h3>
+                    <p>Projeto elétrico e de automação para complexo comercial.</p>
+                </div>
+                <div class="projeto-card">
+                    <img src="https://via.placeholder.com/400x300.png?text=Reforma+Estrutural" alt="Reforma estrutural">
+                    <h3>Reforma Estrutural</h3>
+                    <p>Laudo e reforço estrutural para prédio histórico.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contato-bg">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <p>Estamos prontos para discutir seu próximo projeto. Envie-nos uma mensagem ou ligue.</p>
+                <ul class="contato-info">
+                    <li><strong>Email:</strong> <a href="mailto:contato@suaempresa.com.br">contato@suaempresa.com.br</a></li>
+                    <li><strong>Telefone:</strong> <a href="tel:+5567999999999">(67) 99999-9999</a></li>
+                    <li><strong>Endereço:</strong> Av. Afonso Pena, 1234 - Campo Grande, MS</li>
+                </ul>
+            </div>
+        </section>
     </main>
+
     <footer>
-        <p>&copy; 2025 - Seu Nome</p>
+        <p>&copy; 2025 [Nome da Empresa] - Todos os direitos reservados.</p>
     </footer>
+
 </body>
 </html>
